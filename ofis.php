@@ -16,6 +16,35 @@
 $ip = GetIP();
 echo $ip;
 
+switch($ip)
+{
+   
+    case'178.244.238.41';// office3
+    $sonuc=2;
+    break;
+
+    case'178.244.238.39';//office2
+    $sonuc=2;
+    break;
+
+    case'178.244.238.38'; // office1 88.247.182.43
+    $sonuc=2;
+    break;
+
+    case'88.247.182.43'; // office1 88.247.182.43
+    $sonuc=2;
+    break;
+
+    default;
+    $sonuc=1;
+    break;
+}
+
+if($sonuc == 2){
+    echo "ip bizim";
+}else {
+   echo "değil";
+}
 
 
 
