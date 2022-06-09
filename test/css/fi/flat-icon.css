@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon9f40.ttf?09759362487383434edd61f873fd52a3") format("truetype"),
+url("../fonts/flaticon9f40.woff?09759362487383434edd61f873fd52a3") format("woff"),
+url("../fonts/flaticon9f40.woff2?09759362487383434edd61f873fd52a3") format("woff2"),
+url("../fonts/flaticon9f40.eot?09759362487383434edd61f873fd52a3#iefix") format("embedded-opentype"),
+url("../fonts/flaticon9f40.svg?09759362487383434edd61f873fd52a3#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-tripadvisor:before {
+    content: "\f101";
+}
+.flaticon-facebook:before {
+    content: "\f102";
+}
+.flaticon-instagram:before {
+    content: "\f103";
+}
+.flaticon-right-arrow:before {
+    content: "\f104";
+}
+.flaticon-left-arrow:before {
+    content: "\f105";
+}
